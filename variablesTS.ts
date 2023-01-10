@@ -11,4 +11,19 @@ let num = 6;
 
 // Property 'toLowerCase' does not exist on type 'number'
 
+// NUMBER :
+
+let userId: number = 188.123;
+
+// userId.
+// all pre-defined methods of numbers are available here after writing dot(.)
+
+
+// BOOLEAN
+
+let isLoggedIn: boolean = false;
+
+// isLoggedIn.
+// all pre-defined methods of isLoggedIn are available here after writing dot(.)
+
 export {}

@@ -4,3 +4,4 @@
 - typescriptlang.org - playground for trying TS.
 - Types : Number, String, Boolean, Null, Undefined, Void, Object, Array, Tuples, Any, Never, unknown.
 - every type is lowercase.
+- It is npot so' good practice to use types at every line, you can actually skip this and TS will   understand it's type.
