@@ -1,0 +1,6 @@
+- Static checking - analyze the code as we type it.
+- TS is developement tool - project still runs in JS.
+- Chances of error producing an error is less.
+- typescriptlang.org - playground for trying TS.
+- Types : Number, String, Boolean, Null, Undefined, Void, Object, Array, Tuples, Any, Never, unknown.
+- every type is lowercase.
