@@ -32,4 +32,30 @@ function loginUser(name:string, email:string, feesPaid = false) {
 
 loginUser("Vaibhav", "vpm18897@gmail.com");
 
+// a better way to write function =>  USING ARROW FUNCTION
+
+const getHello = (s:string):string => {
+     return "Heyy"
+}
+
+//example 2
+
+const heroes = ["Shaktiman", "Son Pari", "Hatim"];
+
+// if you hover on "item" in heroes.map, it will show it's type as STRING without even mentioning, because TS is smart enough to understand it.
+// so, we don't really need to check type as - (item):string but if you do this then it's good thing.
+
+const nayeHero = [1,2,3];
+
+heroes.map((item):string => {
+     return `hero is ${item}`;
+});
+
+
+// for nayeHero.map, item type is NUMBER now.
+
+nayeHero.map(item => {
+     return 2; // you can do this also but no use.
+});
+
 export{}

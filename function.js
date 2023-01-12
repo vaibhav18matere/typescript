@@ -24,3 +24,12 @@ function loginUser(name, email, feesPaid) {
     if (feesPaid === void 0) { feesPaid = false; }
 }
 loginUser("Vaibhav", "vpm18897@gmail.com");
+// a better way to write function =>  USING ARROW FUNCTION
+var getHello = function (s) {
+    return "Heyy";
+};
+//example 2
+var heroes = ["Shaktiman", "Son Pari", "Hatim"];
+heroes.map(function (item) {
+    return "hero is ".concat(item);
+});
