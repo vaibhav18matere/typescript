@@ -58,4 +58,18 @@ nayeHero.map(item => {
      return 2; // you can do this also but no use.
 });
 
+
+// NEVER
+
+function clgError(msg:string) {
+     console.log(msg);   
+}
+// if you hover on clgError function you will get this inbuilt type => function clgError(msg: string): void
+// means it's not returning anything. so write like this
+
+function clgError2(msg:string): void {
+     console.log(msg);  
+}
+
+
 export{}
