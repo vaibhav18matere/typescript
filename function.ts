@@ -71,5 +71,12 @@ function clgError2(msg:string): void {
      console.log(msg);  
 }
 
+// FOR ERROR HANDLING :
+// if the function never returns vlue then instead of void, use "never"
+
+function handleError(errorMsg:string):never {
+     throw new Error(errorMsg);
+}
+
 
 export{}
