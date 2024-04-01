@@ -29,6 +29,6 @@ let myUSer: User2 = {
 }
 
 // if we do,
-// myUSer.id = 12;
+myUSer.id = 12;
 // it will show error => "Cannot assign to 'id' because it is a read-only property."
 export{}
