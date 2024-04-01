@@ -16,7 +16,9 @@ type User2 = {
    readonly id: number,
     name: string,
     age: number,
-    isActive: boolean,
+     isActive: boolean,
+        // optional ?
+    creditCardDetails?: number, 
 }
 
 let myUSer: User2 = {
