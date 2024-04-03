@@ -11,8 +11,7 @@ let myTodo = {
 
 showTodos(myTodo);
 
-// better wat to write interface is
-
+// better way to write interface is
   interface Info {
     title: string;
     descr: string;
