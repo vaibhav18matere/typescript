@@ -18,3 +18,27 @@ const employeee: User = {
           return perct*1.10 // argument of type number and returns number
      }
 }
+
+// re-opening of interface
+
+interface Users {
+     name: string,
+     age: number,
+     salary: number,
+}
+
+// we can create new interface with "same name"
+
+interface Admin extends Users{
+     eligible: boolean
+}
+
+const employer2: Admin = {
+     name: "shubham2",
+     age: 244,
+     salary: 240000,
+     // we can add Admin's key:value thing which is extended
+     eligible: true,
+}
+
+export{}
