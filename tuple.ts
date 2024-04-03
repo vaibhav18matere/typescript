@@ -8,7 +8,7 @@ stringNumberTuple = ["vaibhav", 25];
 
 let strNumTuple: [string, number];
 
-strNumTuple = [12, "Astitva Group"];
+/// strNumTuple = [12, "Astitva Group"];
 // now, this will give an error as the ORDER IS NOT THE SAME
 
 type NameTup = [number, string, boolean];

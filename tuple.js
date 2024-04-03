@@ -6,5 +6,9 @@ var stringNumberTuple;
 stringNumberTuple = ["vaibhav", 25];
 // pass the initial two conditions of string and number.
 var strNumTuple;
-strNumTuple = [12, "Astitva Group"];
 var userCreated = [1, "vaibhavmatere", true];
+// but we can override the type by declaring
+var userCreated2 = [1, "vaibhavmatere", true];
+userCreated2[1] = "vpm"; // value can change
+// we can use array methods (push, pop, shift, unshift) and that makes it weird
+userCreated2.push(true);
