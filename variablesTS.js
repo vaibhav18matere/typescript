@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var greetings = "Vaibhav!";
 //greetings = 6;
 // Type 'number' is not assignable to type 'string'
