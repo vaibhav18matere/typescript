@@ -1,8 +1,10 @@
+"use strict";
+// USED WHEN "ORDER OF AN ARRAY IS VERY IMPORTANT" 
+// ex. getting response back from an API call and when we sue those values directly
+Object.defineProperty(exports, "__esModule", { value: true });
 var stringNumberTuple;
 stringNumberTuple = ["vaibhav", 25];
 // pass the initial two conditions of string and number.
 var strNumTuple;
-// strNumTuple = ["Shubham", 23, 12, "Astitva Group"];
-// now, this will give an error as -
-// "Type '[string, number, number, string]' is not assignable to type '[string, number]'.
-// Source has 4 element(s) but target allows only 2."
+strNumTuple = [12, "Astitva Group"];
+var userCreated = [1, "vaibhavmatere", true];
